@@ -19,8 +19,14 @@ The library currently provides four utilities:
 textutils/
 ├── textutils/
 │   ├── __init__.py
-│   ├── casing.py
-│   └── transform.py
+│   ├── casing/
+│   │   ├── __init__.py
+│   │   └── capitalize_words.py
+│   └── transform/
+│       ├── __init__.py
+│       ├── word_count.py
+│       ├── character_count.py
+│       └── reverse.py
 ├── tests/
 │   ├── test_casing.py
 │   └── test_transform.py

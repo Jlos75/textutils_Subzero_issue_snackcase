@@ -1,5 +1,15 @@
 def capitalize_words(text):
-    """Return the text with the first letter of each word capitalized."""
+    """Capitalize the first letter of each word in a text.
+
+    Words are separated by spaces, tabs, or newline characters.
+
+    Args:
+        text (str): The text whose words will be capitalized.
+
+    Returns:
+        str: The text with the first lowercase ASCII letter of each
+        word converted to uppercase.
+    """
     result = ""
     capitalize_next = True
 
